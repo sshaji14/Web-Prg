@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WEB700</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Student Name</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+					<li class="nav-item active"><a class="nav-link" href="/htmlDemo">Html Demo</a></li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="/students">Students</a></li>
+					<li class="nav-item"><a class="nav-link" href="/tas">Teaching Assistants</a></li>
+					<li class="nav-item"><a class="nav-link" href="/courses">Courses</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row">
+				<main class="col-md-12">
+
+
+
+					<!-- Start your code here -->
+					<!-- Tables Section -->
+                    <section class="section">
+                        <h2 class="section-header">Tables</h2>
+                        <table class="table table-bordered">
+                            <caption>Table 1: Basic Table</caption>
+                            <thead>
+                                <tr>
+                                    <th>Column 1</th>
+                                    <th>Column 2</th>
+                                    <th>Column 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="2">Cell 1</td>
+                                    <td>Cell 2</td>
+                                    <td>Cell 3</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">Cell 4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table table-bordered">
+                            <caption>Table 2: Another Table</caption>
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Quantity</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Item 1</td>
+                                    <td>2</td>
+                                    <td>$20</td>
+                                </tr>
+                                <tr>
+                                    <td>Item 2</td>
+                                    <td>1</td>
+                                    <td>$10</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">Total: $30</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>This section demonstrates the use of HTML tables with various attributes such as captions, headers, and cell spans.</p>
+                    </section>
+    
+                    <!-- Lists Section -->
+                    <section class="section">
+                        <h2 class="section-header">Lists</h2>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>
+                                Item 3 with sublist:
+                                <ul>
+                                    <li>Subitem A</li>
+                                    <li>Subitem B</li>
+                                    <li>Subitem C</li>
+                                </ul>
+                            </li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                        <p>This section showcases different types of HTML lists, including nested lists.</p>
+                    </section>
+    
+                    <!-- Images Section -->
+                    <section class="section">
+                        <h2 class="section-header">Images</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Snowboarder_in_halfpipe.jpg" alt="Snowboarder">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/240px-JavaScript-logo.png" alt="JavaScript Logo">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" alt="HTML5 Badge">
+                            </div>
+                        </div>
+                        <p>This section includes multiple images with appropriate alternative text.</p>
+                    </section>
+    
+                    <!-- Audio Section -->
+                    <section class="section">
+                        <h2 class="section-header">Audio</h2>
+                        <audio controls>
+                            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.mp3" type="audio/mpeg">
+                            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-audio.ogg" type="audio/ogg">
+                            Your browser does not support the audio element.
+                        </audio>
+                        <p>This section features an HTML5 audio player with sample audio files.</p>
+                    </section>
+    
+                    <!-- Video Section -->
+                    <section class="section">
+                        <h2 class="section-header">Video</h2>
+                        <video controls>
+                            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.mp4" type="video/mp4">
+                            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.ogg" type="video/ogg">
+                            <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2021/web700/A3/sample-video.webm" type="video/webm">
+                            Your browser does not support the video element.
+                        </video>
+                        <p>This section showcases an HTML5 video player with sample video files.</p>
+                    </section>
+					
+					
+					<!-- End your code here  -->
+
+
+
+				</main>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
