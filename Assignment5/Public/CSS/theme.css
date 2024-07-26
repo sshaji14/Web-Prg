@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #f75fff, #cefe7b);
+    overflow: auto;
+}
+
+.navbar {
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ff7e5f;
+}
+
+.btn-primary {
+    background-color: #ff7e5f;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    background-color: #feb47b;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+tr:nth-child(odd) td {
+    background-color: #ffe0cc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+a {
+    color: #625fff;
+}
+
+a:hover {
+    color: #e4fe7b;
+}
+
+legend {
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-shadow: 1px 1px 2px #ffffff;
+}
